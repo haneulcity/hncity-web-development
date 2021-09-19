@@ -1,0 +1,225 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+
+p {
+    font-size: 1.0rem;
+}
+
+blockquote {
+    display: inline-block;
+    padding: 5px;
+}
+
+[hidden] {
+    display: none;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 400;
+}
+
+.small {
+    font-size: .875rem;
+}
+
+.spaceOneRem {
+    padding-right: 1rem;
+}
+
+.primaryDark {
+    color: #2C79C7;
+}
+
+.bx--header {
+    border-bottom: 2px solid #3799FA;
+    background-color: white;
+}
+
+.bx--link:hover {
+    color: #2C79C7;
+}
+
+.bx--tabs__nav-link {
+    font-size: 1.0rem;
+    outline-color: #82BFFB;
+}
+
+a.bx--tabs__nav-link:focus {
+    outline-color: #82BFFB;
+}
+
+.bx--tabs--container .bx--tabs__nav-item--selected:not(.bx--tabs__nav-item--disabled) .bx--tabs__nav-link, .bx--tabs--container .bx--tabs__nav-item--selected:hover:not(.bx--tabs__nav-item--disabled) .bx--tabs__nav-link {
+    box-shadow: inset 0 2px 0 0 #82BFFB;
+}
+
+.bx--tabs-trigger:focus,
+.bx--tabs-trigger:active {
+    outline: 2px solid #82BFFB;
+}
+
+.bx--tabs--container .bx--tabs__nav-item--selected:not(.bx--tabs__nav-item--disabled) .bx--tabs__nav-link {
+    box-shadow: inset 0 2px 0 0 #3799FA;
+}
+
+.bx--tabs__nav-link:focus,
+.bx--tabs__nav-link:active {
+    outline: 2px solid #3799FA;
+}
+
+.bx--tab-content div {
+    background-color: #F4F4F4;
+}
+
+.bx--skip-to-content {
+    border: 2px solid #82BFFB;
+    background-color: white;
+    color: black;
+    font-family: 'Pretendard Variable', sans-serif;
+    font-weight: 200;
+}
+
+.mainTitle {
+    font-family: 'Pretendard Variable', sans-serif;
+    font-size: 18px;
+    padding-left: 16px;
+    padding-right: 32px;
+    font-weight: 400;
+}
+
+.mainTitle a {
+    color: black;
+    text-decoration: none;
+}
+
+.mainTitle a:hover {
+    text-decoration: none;
+}
+
+.mainTitle a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.postSection {
+    margin-bottom: 2rem;
+}
+
+.otherPosts {
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.bx--header__menu-toggle svg path {
+    fill: black;
+}
+
+.bx--header__menu-toggle:hover {
+    background-color: #82BFFB;
+}
+
+.bx--header__menu-toggle:hover svg path {
+    fill: white;
+}
+
+.bx--header__action:focus {
+    border-color: #82BFFB;
+}
+
+.bx--header__action--active {
+    border-right: 1px solid #82BFFB;
+    border-bottom: 1px solid #82BFFB;
+    border-left: 1px solid #82BFFB;
+}
+
+.hncityMenu {
+    font-family: 'Pretendard Variable', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+
+    list-style-type: none;
+}
+
+.hncityMenu li a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    user-select: none;
+    color: black;
+    border: 2px solid transparent;
+}
+
+.hncityMenu li a:hover {
+    font-weight: 400;
+    background-color: #82BFFB;
+    color: white;
+}
+
+.hncityMenu li a:focus {
+    border: 2px solid #82BFFB;
+}
+
+.bx--navigation {
+    background-color: #FFFFFF;
+}
+
+a.bx--side-nav__link:focus,
+.bx--side-nav a.bx--header__menu-item:focus {
+    outline: 2px solid #82BFFB;
+}
+
+#main-content {
+    padding: 0;
+    font-family: 'Pretendard Variable', sans-serif;
+    font-feature-settings: 'ss05';
+    word-break: keep-all;
+}
+
+#main-image {
+/*
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/main_image.png") no-repeat;
+*/ 
+   background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+
+#main-image div {
+    text-align: center;
+    color: white;
+}
+
+#main-image div h1,
+#main-image div h2 {
+    font-weight: 400;
+}
+
+#main-image div p {
+    font-size: 1.2rem;
+}
+
+#main-text-area {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+footer {
+    font-family: 'Pretendard Variable', sans-serif;
+    font-weight: 200;
+    border-top: 2px solid #3799FA;
+    background-color: white;
+
+    width: 100%;
+    bottom: 0;
+    padding: 5px 16px 5px 16px;
+}
+
+.hncityIcons {
+    vertical-align: middle;
+}

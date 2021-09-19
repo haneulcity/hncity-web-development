@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        {% include head.html %}
+        <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" title="{{ site.title }} Feed">
+        <title>{{ page.title }}</title>
+    </head>
+    <body>
+        {% include header.html %}
+
+        <main id="main-content" class="bx--content">
+            {{ content }}
+        </main>
+        {% include footer.html %}
+        {% include script.html %}
+    </body>
+</html>
