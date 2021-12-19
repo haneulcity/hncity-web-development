@@ -9,11 +9,9 @@ aboutCategoryDesc: 하늘마을 프로젝트의 비공개 서버에 대해 안�
 
 ### 소개
 
-하늘마을 프로젝트는 지난 2019년부터 비공개 서버를 개설하여 뜻이 맞는 분들과 건축을 진행하고 있습니다. 다만, 특징 및 공개 원칙에 의거하여 다음과 같은 정보를 공개하고 있습니다.
+하늘마을 프로젝트는 비정기적으로 팀원을 모집하여 같은 생각을 공유하는 마인크래프트 건축가분들과 함께합니다. 모집은 하늘마을 웹사이트 및 몇몇 커뮤니티에서 진행하며, 프로젝트에 참가하여 지불해야 하는 의무적인 비용은 없습니다.
 
 - [규정 및 시설 소개](https://github.com/haneulcity/haneulcity/wiki)
-- [파일](https://github.com/haneulcity/haneulcity)
-  - [공식 버전](https://github.com/haneulcity/haneulcity/releases)
+- [역대 멤버 소개](./member.html)
 
-1. 순서 있는 리스트
-2. 테스트 하는 중입니다.
+현재 모집 상태: **1기 모집 중단**
